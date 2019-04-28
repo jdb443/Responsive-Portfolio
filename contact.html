@@ -7,43 +7,40 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/images/Jonathan_Behar_Profile_Photo.jpeg">
 
-    <title>Jonathan Behar - Basic-Portfolio - Portfolio</title>
+    <title>Jonathan Behar - Responsive-Portfolio - Contact</title>
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-              <section id="nav_title1">
-                  <a href="index.html"><h1>Jonathan Behar</h1></a>
-              </section>
-              <section id="nav_title2">
-                  <br>
-                  <span><a href="index.html">About</a></span>
-                  <span class="navBorder"><a href="portfolio.html">Portfolio</a></span>
-                  <span class="navBorder"><a href="contact.html">Contact</a></span>
-              </section>
-        </nav>
-      </header>
+    <header class="header">
+        <div class="headerTitle">
+            <h1 class="jonName">Jonathan Behar</h1> 
+            <nav class="navlinks-jr">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <section class="mainContent mainContainer">
+    <main class="content">
         <h2>Contact</h2>
-    
-            <div id="contactForm">
-                <form class="form" action="mailto:jdb443@stern.nyu.edu" method="get" enctype="text/plain">
-                    <label for="userName">Name:</label><br>
-                    <input id="userName" name="userName" type="text" placeholder="Enter Your Name" width="100%em"><br>
-                    
-                    <label for="userEmail">Email:</label><br>
-                    <input id="userEmail" name="userEmail" type="text" placeholder="Enter Your E-Mail" width="100%vw"><br>
-                    
-                    <label for="uderMessage">Message:</label><br>
-                    <textarea id="userMessage" name="userMessage" type="text" placeholder="Share your feedback"></textarea>
-                    
-                    <button type="submit" value="form">
-                        Submit
-                    </button> 
-                </form> 
-            </div>
-    </section>
+        
+        <form enctype="text/plain" method="get" action="mailto:jdb443@stern.nyu.edu" class="form">
+            <label for="userName">Name:</label> <br>
+            <input type="text" id="userName" name="userName" placeholder="Enter Your Name">
+            
+            <label for="email">E-mail:</label> <br>
+            <input type="email" id="email" placeholder="Enter Your E-mail">
+
+            <label for="userMessage">Message</label> <br>
+            <textarea id="userMessage" name="userMessage" style="height: 170px" placeholder="Share Your Feedback!"></textarea>
+            
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+        
+    </main>
+
 
     <footer>
         Copyright &#xA9; Jonathan Behar 2019
