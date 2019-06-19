@@ -8,7 +8,7 @@ body{
   margin: 0;
 }
 
-h1, h2{
+h1, h2, h3{
   font-family: "Georgia", Times, Times New Roman, serif;
 }
 
@@ -86,6 +86,14 @@ a, p, label{
   border-bottom: solid 2px #dddddd;
   color: #4aaaa5;
   font-size: 1.5em;
+  font-weight: bold;
+}
+
+.content h3{
+  /* margin: 20px 40px; */
+  padding-bottom: 20px;
+  color: #4aaaa5;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -251,9 +259,18 @@ footer {
   
   .header{
     min-width: 0;
-    width: 100%;
+    width: 100%; 
+  }
+
+  .projectCardB{
+    height: 0px;
+    width: 400px;
+    /* margin-right: 0px;
+    margin-bottom: 0px; */
+    position: relative;
     
   }
+
 
 }
 
@@ -318,4 +335,39 @@ footer {
     margin: 30px;
     margin-bottom: 100px;
   }
+
+  /* .projectCardB{
+    height: 150px;
+    width: 400px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    
+  } */
 }
+
+@media only screen and (min-width: 981px) {
+
+  .projectCardB{
+    height: 150px;
+    width: 400px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    
+  }
+
+}
+
+.assign {
+  padding-right: 3000px;
+}
+
+/* .projectCardB{
+  height: 150px;
+  width: 400px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  
+} */
